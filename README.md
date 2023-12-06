@@ -1,80 +1,73 @@
-<h1 align="center">ouioui</h1>
-<h3 align="center">ПРОЕКТ "MPIT education"</h3>
-Разработка веб-сервиса для развития навыков пользователей в различных областях в интреснной и затягивающей в процесс форме, что позволит молодежи выполнять различные задачи в виде игропрактике, а также получить уникальный опыт и ценные бонусы. А компании партнеры смогут задавать пользователям интересующие их вопросы, получить feedback, и привлечть участников в свои проекты.
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+</p>
 
-## Описание работы прототипа
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+[circleci-url]: https://circleci.com/gh/nestjs/nest
 
-в своем функционале: 
-- задания от заказчика и партнеров платформы; 
-- маркетплейс; 
-- систему общения между пользователями(чат, друзья, командооброзование); 
-- систему мотивации(достижения и поощерения); 
-- чат-бот/поддержка; 
-- новостной портал; 
-- профиль в котором будет интересы, навыки и баланс пользователя; 
-- а также политика виртуальной валюты и документов для сотрудничества с компаниями
+  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
+    <p align="center">
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
+<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
+<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
+<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
+<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
+<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
+  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
+    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
+  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+</p>
+  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
+  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Технологии
+## Description
 
-# Языки програмирования: 
--TypeScript
--Node js
-# Фреймворки: 
--Axios
--Swagger
--TypeORM
--Multer
--PassportJS
--JWT
--Nookies
--nextJS
--nestJS
--SCSS
--TailwindCSS
-# Базы данных: 
--postgreSQL
-  
-## Наш сайт
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-- Скоро(будет)
-## Состав Команды
+## Installation
 
-<h5>Менеджер - Ядрихинский Александр Александрович</h5>
-<h3></h3>
-<h5>Дизайнер - Оконешникова Таисия Васильевна</h5>
-<h3></h3>
-<h5>Разработчик - Голиков Александр Алексеевич</h5>
-<h3></h3>
+```bash
+$ pnpm install
+```
 
+## Running the app
 
-# Финал МПИТ
+```bash
+# development
+$ pnpm run start
 
+# watch mode
+$ pnpm run start:dev
 
-# Инструкция по установке
+# production mode
+$ pnpm run start:prod
+```
 
-React JS - это JavaScript-библиотека для разработки пользовательского интерфейса. Чтобы составить первое впечатление о React, зайдите на главную страницу или во введение.
+## Test
 
-## Шаг 1: Установка node.js
+```bash
+# unit tests
+$ pnpm run test
 
-- перейти на сайт [Node.org](https://nodejs.org/en) и скачать LTS файл
+# e2e tests
+$ pnpm run test:e2e
 
-## Шаг 2: Установка PNPM
+# test coverage
+$ pnpm run test:cov
+```
 
-- Чтобы установить PNPM, вам нужно перейти по ссылке и в терминале установить pnpm:
-- [pnpm.io](https://pnpm.io/installation)
+## Support
 
-## Шаг 3: Запустите VisialStudioCode
-- загрузить файлы и открыть папки в VisialStudioCode
+Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Шаг 4: Откройте терминал и введите 
+## Stay in touch
 
-- pnpm i
+- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+- Website - [https://nestjs.com](https://nestjs.com/)
+- Twitter - [@nestframework](https://twitter.com/nestframework)
 
-## Шаг 5: Действовать по README.md
+## License
 
-- в папке Back в терминале написать (pnpm run start)
-- в папке cli в терминале написать (pnpm start)
-
-## Шаг 6: сайт
-
-- зайти на сайт [localhost](http://localhost:3000/dashboard/auth)
+Nest is [MIT licensed](LICENSE).
